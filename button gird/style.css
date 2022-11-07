@@ -1,0 +1,296 @@
+body,
+html 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+/* make the grid responsive */
+
+:root 
+{
+
+    --button_width: clamp(4.5em, 6.5em, 8.5em);
+    --button_height: clamp(7.5em,9.5em,11.5em);
+    --button_corner_radius: clamp(0.6em,0.8em,10.5em);
+    --button_icon_width: clamp(4.5em, 6.5em, 8.5em);
+    --button_font_size: clamp(0.8em,1em,1.2em);
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid
+{
+    display: grid;
+    column-gap: 1.5px;
+    row-gap: 1.5px;
+}
+
+
+.align_center
+{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+.align_end
+{
+    height: 8%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+.hexbuttonbg1 
+{
+    width: var(--button_width);
+    overflow: hidden;
+    border-width: none;
+    height: var(--button_height);
+    grid-column-start: 1;
+    margin: 0.2em;
+    font-weight: normal;
+    border-radius: var(--button_corner_radius);
+    background-color: #E6E6FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.hexbuttonbg2 
+{
+    width: var(--button_width);
+    overflow: hidden;
+    border-width: none;
+    height: var(--button_height);
+    grid-column-start: 2;
+    margin: 0.2em;
+    border-radius: var(--button_corner_radius);
+    background-color: #F9E5E8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hexbuttonbg3 {
+    width: var(--button_width);
+    overflow: hidden;
+    border-width: none;
+    height: var(--button_height);
+    grid-column-start: 3;
+    margin: 0.2em;
+    border-radius: var(--button_corner_radius);
+    background-color: #DFECF9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hexbuttonbg4 {
+    width: var(--button_width);
+    overflow: hidden;
+    border-width: none;
+    height: var(--button_height);
+    grid-column-start: 4;
+    margin: 0.2em;
+    border-radius: var(--button_corner_radius);
+    background-color: #FBECD8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hexbuttonbg5 {
+    width: var(--button_width);
+    overflow: hidden;
+    border-width: none;
+    height: var(--button_height);
+    margin: 0.2em;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-radius: var(--button_corner_radius);
+    background-color: #EBBBEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hexbuttonbg6 {
+    width: var(--button_width);
+    overflow: hidden;
+    border-width: none;
+    height: var(--button_height);
+    margin: 0.2em;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    border-radius: var(--button_corner_radius);
+    background-color: #E7F7EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hexbuttontext
+{
+
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--button_font_size);
+    font-weight: normal;
+    overflow: hidden;
+    text-align: center;
+    border-width: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+}
+
+
+.hexicon {
+
+    width: var(--button_icon_width);
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: transform .2s;
+    align-items: center;
+
+}
+
+
+.hexbuttonbg1:hover .hexicon {
+    transform: scale(1.1);
+}
+
+.hexbuttonbg2:hover .hexicon {
+    transform: scale(1.1);
+}
+
+.hexbuttonbg3:hover .hexicon {
+    transform: scale(1.1);
+}
+
+.hexbuttonbg4:hover .hexicon {
+    transform: scale(1.1);
+}
+
+.hexbuttonbg5:hover .hexicon {
+    transform: scale(1.1);
+}
+
+.hexbuttonbg6:hover .hexicon {
+    transform: scale(1.1);
+}
+
+
+.lottie
+{
+    margin: 0;
+    height: var(--button_height);
+    padding: 0;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.get_your_app
+{
+    margin: 0;
+    height: var(--button_height);
+    padding: 0;
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_your_app_title
+{ 
+    color: #333;
+    font-size: 1.2em;
+    margin: 0;  
+}
+
+.here 
+{
+    color: #727272;
+    font-size: 0.em;
+    margin: 0;
+}
+
+.here2 {
+    color: #333;
+    font-size: 0.em;
+    margin: 0;
+}
+
+.notepad
+{
+    height: var(--button_height);
+    border-radius: var(--button_corner_radius);
+    background-color: #F0F4FE;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.notepad_text_area
+{
+    resize: none;
+    width: 85%;
+    height: 65%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    scrollbar-width: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--button_font_size);
+}
+
+ 
+
+

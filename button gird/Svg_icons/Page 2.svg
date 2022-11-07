@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(255,255,255,0)"/>
+<g transform="matrix(0 3.3634 -3.3634 0 500 500)" id="287878" clip-path="url(#CLIPPATH_15)">
+<clipPath id="CLIPPATH_15">
+	<rect transform="matrix(1 0 0 1 0 0.0003)" id="clip0_302_60" x="-79" y="-79" rx="0" ry="0" width="158" height="158"/>
+</clipPath>
+<path style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(241,43,88); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-79, -78.9997)" d="M 155.762 70.7044 L 124.67 16.7491 C 121.674 11.5327 116.117 8.31686 110.102 8.31844 H 47.9186 C 41.9447 8.27481 36.3974 11.4081 33.3507 16.5467 L 2.25885 70.5021 C -0.753053 75.7188 -0.753053 82.1463 2.25885 87.363 L 33.3507 141.318 C 36.3737 146.499 41.9207 149.683 47.9186 149.681 H 110.102 C 116.058 149.725 121.596 146.623 124.67 141.521 L 155.762 87.5654 C 158.746 82.3414 158.746 75.9287 155.762 70.7044 Z" stroke-linecap="round"/>
+</g>
+<g transform="matrix(11.7869 0 0 11.7869 500.0004 500.0004)" id="528686">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-10.25, -10.75)" d="M 4 3 a 2 2 0 0 0 -2 2 v 8 a 2 2 0 0 0 2 2 h 7.5 v -0.671 a 4.514 4.514 0 0 1 -0.242 -0.329 H 4 a 1 1 0 0 1 -1 -1 V 5 a 1 1 0 0 1 1 -1 h 12 a 1 1 0 0 1 1 1 v 2.468 c 0.364 0.18 0.7 0.41 1 0.678 V 5 a 2 2 0 0 0 -2 -2 H 4 Z m 14.5 8.5 a 3.5 3.5 0 1 1 -7 0 a 3.5 3.5 0 0 1 7 0 Z M 15 16 c 0.925 0 1.785 -0.28 2.5 -0.758 V 18 a 0.5 0.5 0 0 1 -0.8 0.4 l -1.4 -1.05 a 0.5 0.5 0 0 0 -0.6 0 l -1.4 1.05 a 0.5 0.5 0 0 1 -0.8 -0.4 v -2.758 A 4.478 4.478 0 0 0 15 16 Z M 5 6.5 a 0.5 0.5 0 0 1 0.5 -0.5 h 9 a 0.5 0.5 0 0 1 0 1 h -9 a 0.5 0.5 0 0 1 -0.5 -0.5 Z m 0.5 4.5 a 0.5 0.5 0 0 0 0 1 h 4 a 0.5 0.5 0 0 0 0 -1 h -4 Z" stroke-linecap="round"/>
+</g>
+</svg>
