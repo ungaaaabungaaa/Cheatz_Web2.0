@@ -464,16 +464,124 @@ html
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     
-    .lottie,.notepad,.get_your_app 
+    .lottie,.notepad,.get_your_app ,.hexbuttonbg5,.hexbuttonbg6
     {
         display: none;
     }
 
     
+     .hexbuttonbg1 
+     {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #E6E6FA;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 1;
+            grid-row-start: 1;
+    
+     }
+    
+    
+    
+        .hexbuttonbg2 
+        {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #F9E5E8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 2;
+            grid-row-start: 1;
+    
+        }
+    
+        .hexbuttonbg3 {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #DFECF9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 1;
+            grid-row-start: 2;
+    
+        }
+    
+        .hexbuttonbg4 
+        {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #FBECD8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 2;
+            grid-row-start: 2;
+    
+        }
 
-    /* display non for two button also bro*/
 
-        /* design the button for mobile */
+        .hexbuttontext
+         {
+        
+           width: 100%;
+           font-family: 'Roboto', sans-serif;
+           font-size: small;
+           font-weight: normal;
+           overflow: hidden;
+           text-align: center;
+           border-width: none;
+           padding-left: 0.5em;
+           padding-right: 0.5em;
+        
+        }
+
+        .hexicon 
+        {
+        
+          width: 4.5em;
+          background-color: transparent;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          transition: transform .2s;
+          align-items: center;
+        
+        }
+
+
+
 
     
 
@@ -484,15 +592,120 @@ html
 
 @media screen and (max-device-width: 640px) and (orientation: landscape) {
     
-    .lottie,.notepad,.get_your_app 
-    {
-        display: none;
-    }
-
-
-     /* design the button for mobile */
-
-     /* display non for two button also bro*/
+    .lottie,
+        .notepad,
+        .get_your_app,
+        .hexbuttonbg5,
+        .hexbuttonbg6 {
+            display: none;
+        }
+    
+    
+        .hexbuttonbg1 {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #E6E6FA;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 1;
+            grid-row-start: 1;
+    
+        }
+    
+    
+    
+        .hexbuttonbg2 {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #F9E5E8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 2;
+            grid-row-start: 1;
+    
+        }
+    
+        .hexbuttonbg3 {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #DFECF9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 3;
+            grid-row-start: 1;
+    
+        }
+    
+        .hexbuttonbg4 {
+            width: 4.5em;
+            overflow: hidden;
+            border-width: none;
+            height: 7em;
+            margin: 0.2em;
+            font-size: medium;
+            font-weight: normal;
+            border-radius: 0.6em;
+            background-color: #FBECD8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 4;
+            grid-row-start: 1;
+    
+        }
+    
+    
+        .hexbuttontext {
+    
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-size: small;
+            font-weight: normal;
+            overflow: hidden;
+            text-align: center;
+            border-width: none;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+    
+        }
+    
+        .hexicon {
+    
+            width: 4.5em;
+            background-color: transparent;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            transition: transform .2s;
+            align-items: center;
+    
+        }
+    
 
 }
 
